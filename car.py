@@ -1,5 +1,6 @@
 # Define a class named "Car"
 class Car:
+    wheels = 4
     # The __init__ method is the constructor that initializes object attributes
     def __init__(self, make, model, year, color):
         self.make = make
