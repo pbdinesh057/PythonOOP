@@ -3,8 +3,8 @@
 2. abstract method = a method that has a declaration but no implementation
 3. abstract class prevent a user from creating an object from that class, since it's just a blueprint
 4. compels a user to override abstract methods in a child class
-5. abstract class methods may be empty, but if any class inherits this abstract class, they must follow the blueprint     which was declared under @abstractmethod, like defining same function without deviation.
-6. child class must define all methods which are in main abstract class(may be some extra methods too), but shouldn't     miss any from main class
+5. abstract class methods may be empty, but if any class inherits this abstract class, they must follow the blueprint which was declared under @abstractmethod, like defining same function without deviation.
+6. child class must define all methods which are in main abstract class(may be some extra methods too), but shouldn't miss any from main class
 """
 
 # Import the ABC (Abstract Base Class) module and the abstractmethod decorator
